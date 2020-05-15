@@ -1,0 +1,85 @@
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 10%;
+    margin-left: 2%;
+    float: right;
+    margin-top: 4%;
+  }
+  #ing{
+    float:left;
+    margin-left: 15%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid rgb(8, 7, 7);
+    padding: 15px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(13, 24, 14);
+    color: white;
+  }
+  #customers {
+    float:  left;
+    width:  50px;
+    height: 50px;
+    background-size: cover;
+}
+.button{
+    width:150px;
+    background-color: chocolate;
+    margin: 10px;
+}
+#search-container button {
+    
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background:  rgb(13, 24, 14);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .button {
+    position: relative;
+    background-color: rgb(13, 24, 14);
+    border: none;
+    font-size: 20px;
+    color: rgb(252, 250, 250);
+    padding: 20px;
+    width: 120px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #f0ecec;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
