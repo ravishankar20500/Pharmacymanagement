@@ -1,9 +1,26 @@
+INTRODUCTION
+The main aim of the project is the management of the database of the pharmaceutical shop. 
+This project is insight into the design and implementation of a Pharmacy Management System. 
+This is done by creating a database of the available medicines in the shop. 
+The primary aim of pharmacy management system is to improve accuracy and enhance safety and efficiency in the pharmaceutical store. 
+The aim of this project is to develop software for the effective management of a pharmaceutical store.
+We have developed this software for ensuring effective policing by providing statistics of the drugs in stock.
+DESCRIPTION 
+on the topic This program can be used in any pharmaceutical shops having a database to maintain. 
+The software used can generate reports, as per the user’s requirements. 
+The software can print invoices, bills, receipts etc. It can also maintain the record of supplies sent in by the supplier. 
+Here, the admin who are handling the organization will be responsible to manage the record of the employee.
+Each employee will be given with a separate username and password.
 Pharmacy management system is a project for managing the pharmacy.
-Technologies used in the project are 
+SOFTWARE REQUIREMENTS
+o Windows XP/7/10 operating system. o JRE and JDK. o MySQL server (WAMP or XAMPP or any)
+TECHNOLOGIES USED:
+
 React.js
 Springboot
 Java
-Members contributed are
+
+MEMBERS CONTRIBUTED:
 1.FrontEnd
 *Shukhpreet
 *Navya
